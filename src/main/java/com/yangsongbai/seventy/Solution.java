@@ -9,6 +9,9 @@ package com.yangsongbai.seventy;
 
 public class Solution {
 
+    public static void main(String[] args) {
+        System.out.println(new Solution().climbStairs(5));
+    }
     public int climbStairs(int n) {
        /* if (n < 0) return 0;
         if (n<=2)return n;
