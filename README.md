@@ -1,2 +1,2 @@
 # myself-leetcode
-* 编程联系
+* 编程练习
