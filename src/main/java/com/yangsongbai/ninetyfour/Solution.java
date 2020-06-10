@@ -16,7 +16,7 @@ class TreeNode {
 public class Solution {
 
     //方法 1 递归遍历
-    /*public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
         doInorderTraversal(root,list);
         return list;
@@ -28,7 +28,7 @@ public class Solution {
         list.add(root.val);
         doInorderTraversal(root.right,list);
         return ;
-    }*/
+    }
 
 
 }
