@@ -1,7 +1,10 @@
 package com.company.dancebyte.ListNode.dance01;
 
 
- class ListNode {
+import java.util.HashMap;
+import java.util.Map;
+
+class ListNode {
     int val;
     ListNode next;
     ListNode() {}
@@ -11,6 +14,7 @@ package com.company.dancebyte.ListNode.dance01;
 
 class Solution {
     public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
         Solution Solution= new Solution();
         ListNode l1= new ListNode(5);
         ListNode l2= new ListNode(1);
